@@ -17,6 +17,8 @@ icon = "src/qtbriefcase/resources/qtbriefcase"
 sources = ['src/qtbriefcase']
 requires = [
     'pyside2==5.13.0',
+    'pyqtgraph>=0.11.0rc0',
+    'numpy'
 ]
 
 
