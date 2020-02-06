@@ -1,0 +1,37 @@
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "Qt Briefcase"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/qtbriefcase"
+license = "MIT license"
+author = 'Geoffrey Sametz'
+author_email = "sametz@udel.edu"
+
+[tool.briefcase.app.qtbriefcase]
+formal_name = "Qt Briefcase"
+description = "Testing if briefcase can freeze a scientific qt app"
+icon = "src/qtbriefcase/resources/qtbriefcase"
+sources = ['src/qtbriefcase']
+requires = [
+    'pyside2==5.13.0',
+]
+
+
+[tool.briefcase.app.qtbriefcase.macOS]
+requires = []
+
+[tool.briefcase.app.qtbriefcase.linux]
+requires = []
+
+[tool.briefcase.app.qtbriefcase.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.qtbriefcase.iOS]
+requires = []
+
+[tool.briefcase.app.qtbriefcase.android]
+requires = []

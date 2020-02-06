@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qtbriefcase
+Formal-Name: Qt Briefcase
+App-ID: com.example.qtbriefcase
+Version: 0.0.1
+Home-page: https://example.com/qtbriefcase
+Author: Geoffrey Sametz
+Author-email: sametz@udel.edu
+Summary: Testing if briefcase can freeze a scientific qt app
