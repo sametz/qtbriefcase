@@ -1,5 +1,8 @@
 Qt Briefcase
 ============
+
+.. image:: screenshot.png
+
 This is a test of using `Briefcase`_ (part of `The BeeWare Project`_)
 to package a PySide2/qtgraph scientific app.
 
